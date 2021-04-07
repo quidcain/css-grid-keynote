@@ -44,18 +44,15 @@
   justify-content: flex-start;
 }
 
-.grid .item {}
-
-
 /* flex wrap to a new line and shrink */
-/* .container.flex {
+.container.flex {
   flex-wrap: wrap;
 }
 
 .flex .item {
   flex-shrink: initial;
 }
-*/
+
 
 /* grid wrap */
 /* .container.grid {
@@ -64,6 +61,16 @@
 } */
 
 /* free space distribution */
-/* .container {
+.container {
   width: 920px;
+}
+
+/* moving items */
+/* .flex .item:nth-of-type(2) {
+  order: 1;
+}
+ */
+/* .grid .item:nth-of-type(2) {
+  grid-row-start: 2;
 } */
+
