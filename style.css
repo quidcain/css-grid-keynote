@@ -45,19 +45,19 @@
 }
 
 /* flex wrap to a new line and shrink */
-.container.flex {
+/* .container.flex {
   flex-wrap: wrap;
-}
+} */
 
 .flex .item {
   flex-shrink: initial;
 }
 
 /* grid wrap */
-.container.grid {
+/* .container.grid {
   grid-template-columns: repeat(3, 1fr);
   grid-auto-flow: initial;
-}
+} */
 
 /* free space distribution */
 /* .container {
