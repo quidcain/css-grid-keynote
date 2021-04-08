@@ -49,9 +49,9 @@
   flex-wrap: wrap;
 } */
 
-.flex .item {
+/* .flex .item {
   flex-shrink: initial;
-}
+} */
 
 /* grid wrap */
 /* .container.grid {
